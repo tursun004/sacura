@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header__fon {
+    background: url("../taun/header-bg-1.jpg") no-repeat center/cover;
+    min-height: 100vh;
+}
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header {
+    padding: 10px 100px;
+    animation: header 2s alternate;
+}
+@keyframes header {
+    0% {
+        transform: translateY(-1200px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.left {
+    padding: 5px;
+}
+.left h1 {
+    color: white;
+}
+.right {
+    display: flex;
+    align-items: normal;
+}
+.right img {
+    width: 20px;
+    height: 30px;
+}
+.right span {
+    color: white;
+    padding: 10px;
+}
+.phone {
+    width: 20px;
+    height: 20px;
+}
+.global__text {
+    border: 20px solid orange;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.global__text h1 {
+    color: white;
+    font-family: sans-serif;
+}
+.global__span span {
+    color: orange;
+    margin-bottom: 15px;
+}
+.global__span {
+    margin-bottom: 30px;
+}
+.global__vsam {
+    margin: 5px 0;
+}
+.global__btn {
+    height: 40px;
+    background: orange;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 4px;
+    position: relative;
+    animation: global__btn 4s alternate;
+    cursor: pointer;
+}
+@keyframes global__btn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#section {
+    padding: 15px 100px;
+}
+.section__content {
+}
+.section__h {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 28px;
+}
+.section__p {
+    margin-left: 80px;
+}
+.section__img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section__img__text{
+    text-align: center;
+}
+.linya {
+    width: 100%;
+    height: 100%;
+    border: 10px solid black;
+}
+#sectionn {
+    padding: 15px 100px;
+}
+.main__content {
+}
+.main__global__ {
+    margin-left: 100px;
+}
+.main__global__ p{
+    margin-left: 48px;
+}
+.main__global___h1::before{
+    position: absolute;
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid black;
+    width: 4rem;
+    left: 10px;
+    top: 12px
+}
+.main__global__start {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.main__home__img {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+}
+.main__block__per {
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 60px;
+}
+.main__block__per h1 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.block__per__pdva {
+    margin: 30px 0 50px 0;
+}
+.block__per__spanper {
+    margin-bottom: 20px;
+}
+.block__per__spandva {
+    border: 4px solid orange;
+    margin: 60px 0;
+    padding: 7px;
+}
+ul,li{
+    list-style: none;
+}
+.icon__content__linya{
+    width: 100%;
+    height: 100%;
+    border: 10px solid black;
+    margin-top: 30px;
+}
+.icon__spisok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.icon__spisok a{
+    padding: 10px;
+}
+.icon__spisok button{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: orange;
+    border: none;
+}
+.icon__content__text{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 50px 430px 50px 0;
+    line-height: 30px;
+    font-weight:1000;
+}
+.icons__content__icons{
+    display:grid;
+    grid-template-columns:repeat(2,4fr);
+    justify-items:center;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.icon__content__icons__text{
+    display: flex;
+    justify-content: space-around;
+}
+.icons__content__text__span{
+    font-size: 15px;
+}
+.icons__content__steni{
+    width: 60px;
+}
+.icons__content__dvor{
+    width: 60px;
+}
+#section__zayav{
+    background: url("../taun/fon_ost-1.jpg")no-repeat center/cover;
+    min-height:80vh;
+}
+.section__zayav__content{
+}
+.section__zayav__global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_zayav{
+    margin-top: 80px;
+    color: white;
+}
+.left_zayav h1{
+    margin-bottom: 30px;
+}
+.left_zayav p{
+    margin-bottom: 30px;
+}
+.left_zayav__span{
+    color: orange;
+}
+.right_zayav{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.right_zayav__h1{
+    color: orange;
+    margin-bottom: 30px;
+}
+.right_zayav__input1{
+    width: 250px;
+    height: 40px;
+    margin-bottom:10px;
+    padding: 20px;
+}
+.right_zayav__input2{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 20px;
+}
+.right_zayav__btn{
+    width: 250px;
+    height: 40px;
+    background:orange;
+    border: none;
+    cursor: pointer;
+}
+.section__zayav__global__phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    flex-direction: column;
+    margin-top: 70px;
+    color: white;
+}
+.section__zayav__global__phone h1{
+    color:orange;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.section__zayav__global__img{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.section__zayav__global__img span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.linya__3{
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+}
+#section__vopros{
+    background: url("../taun/fon_ost-1.jpg")no-repeat center/cover;
+    min-height: 80vh;
+}
+.vopros__content{
+}
+.vopros__contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.vopros__content h1{
+    color: white;
+    font-weight: 400;
+}
+.vopros__content__htext{
+    font-size: 30px;
+    color: orange;
+    font-weight: 500;
+}
+.vopros__content__htext22{
+    font-size: 25px;
+    font-weight: 500;
+}
+.vopros__content__input{
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 20px;
+}
+.vopros__content__input22{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 20px;
+}
+.vopros__content__btn{
+    width: 250px;
+    height: 40px;
+    background:orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.vopros__content p{
+    color: white;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.vopros__content h2{
+    color: orange;
+    font-weight: 900;
+}
+.vopros__contents__phone{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+}
+.vopros__contents__phone span{
+    margin-left: 10px;
+}
+
+
+@media (max-width: 375px) {
+    .global__text{
+        width: 100%;
+        margin: 0;
+
+    }
+
+}
